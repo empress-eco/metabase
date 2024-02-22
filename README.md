@@ -1,38 +1,61 @@
-## [Metabase](https://github.com/metabase/metabase) integration for [Frappe web framework](https://github.com/frappe/frappe)
+<div align="center">
+![Project Logo](https://grow.empress.eco/uploads/default/original/2X/1/1f1e1044d3864269d2a613577edb9763890422ab.png
+<h1 align="center">Metabase for Empress: Powerful Dashboard Integration</h1>
+<p align="center">
+An efficient tool for integrating Metabase dashboard into the Empress web framework.
+<br />
+<a href="https://github.com/empress-eco/metabase">Explore the Docs</a>
+·
+<a href="https://github.com/empress-eco/metabase/issues">Report Bug</a>
+·
+<a href="https://github.com/empress-eco/metabase/issues">Request Feature</a>
+</p>
+</div>
 
-![Metabase ERPNext integration](readme_assets/metabase_frappe-min.gif)
+## About The Project
 
-Metabase is a simple, useful and easy to use dashboard tools.
+### 📖 Overview
+Metabase for Empress is a dynamic tool designed for seamless integration of Metabase dashboards into the Empress web framework using iFrames. It is an ideal solution for developers and teams looking to incorporate a user-friendly dashboard tool into their web applications.
 
-### Feature
+### 🌟 Key Features
+- Integrate Metabase into Empress page using iFrame
+- Resize iFrame using Metabase resizer
+- Metabase link expiration based on pre-configured time
 
- - Integrate Metabase into Frappe page using iFrame
- - Resize iFrame using Metabase resizer
- - Metabase link will expired based on pre-config time
+### 🛠 Technical Stack
+This project is built with the robust Empress web framework and leverages the power of Metabase for dashboard integration.
+
+## Getting Started
+
+### Prerequisites
+Ensure you have the Empress web framework installed and set up.
+
+### Installation
+Setting up Metabase for Empress is simple:
+
+```sh
+# Clone the repository
+git clone https://github.com/empress-eco/metabase.git
+# Install the application
+bench install-app metabase_integration
+```
 
 ### Usage
+After installation, configure Metabase by navigating to Metabase Settings in the Empress awesome bar and filling in the required fields. You can then add a dashboard by publishing it from Metabase and creating a new dashboard in your application.
 
-#### Installation
+## Contributing
+Your contributions are always welcome! Here's how you can contribute:
 
-    bench get-app metabase_integration https://github.com/pipech/frappe-metabase.git
-    bench install-app metabase_integration
+- Fork the Project
+- Create your Feature Branch (git checkout -b feature/AmazingFeature)
+- Commit your Changes (git commit -m 'Add some AmazingFeature')
+- Push to the Branch (git push origin feature/AmazingFeature)
+- Open a Pull Request
 
-#### Setting up
-
-![Metabase integration setup](readme_assets/get_metabase_info-min.gif)
-
-1. Go to Metabase Setting by typing into Frappe awesomebar
-1. Copy these field into Metabase Settings
-   - `METABASE_SITE_URL` > `Server URL`
-   - `METABASE_SECRET_KEY` > `Secret Key`
-
-#### Adding dashboard
-
-![Metabase integration setup](readme_assets/adding_metabase_dashboard-min.gif)
-
-1. Go to Metabase dashboard and publish dashboard
-2. Copy dashboard id and create new Metabase Dashboard in ERPNext
+## License and Acknowledgements
 
 ### License
+This project is under the MIT License. Your contributions are also licensed under the same.
 
-This repository has been released under the MIT License.
+### Acknowledgements
+Special thanks to the Empress Community for their foundational contributions to this project. Their innovation and dedication have been instrumental in building the essential tools that power this project. We are profoundly grateful for their pioneering work and ongoing support.
